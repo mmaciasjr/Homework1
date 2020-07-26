@@ -12,17 +12,31 @@
     integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
   <style>
-    .nav-link.section:after {
-        content: "|";
-        position: absolute;
-        margin-left: 5px;
+    body { background-color: #eeeeee;}
 
+    .nav-item.secondary:not(:last-child)  {
+      border-right: 1px solid silver;
     }
-    .nav-item:last-child .nav-link.section:after{
-        content: "";
-        position: absolute;
+
+    .nav-item.secondary .nav-link {  color: #929297;}
+
+    .nav-item.secondary .nav-link:hover {  color: #000000;}
+
+    .nav-link.section {
+      padding: 0 1rem;
+    }
+
+    footer {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+    }
+
+    footer > p,
+    footer > a {
+      color: #aeb3ab;
     }
   </style>
+
 </head>
 
 <body>
@@ -53,9 +67,12 @@
   <h3 style="color: #5da8a1; border-bottom: 3px solid gray; padding-bottom: 21px;">About Me</h1>
 
   <!-- IMAGE -->
-
+  <h3 style="color: #5da8a1; border-bottom: 3px solid gray; padding-bottom: 21px;">About Me</h1>
 
   <!-- Text -->
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis mollitia corrupti, dolores est voluptatibus similique. Nam vel, neque totam nihil atque eligendi. Natus fuga aliquid ipsa ut quisquam perferendis nemo!</p>
+
+
 </div>
 </body>
 
