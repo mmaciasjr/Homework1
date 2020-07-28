@@ -11,3 +11,8 @@
 * Think of basic elements like loops, if-else statements, arrays, alerts, etc.
 
 * Be prepared to share your outlines approach.
+
+
+Would have to start off with a function for everything that would be executed within that function. 
+
+\\assign a variable. A variable can be anything. For this exercise. I chose the variable of 
